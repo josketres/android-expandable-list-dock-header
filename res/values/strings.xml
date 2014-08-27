@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewDockHeader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_button_text">You should do it</string>
+    <string name="header_text">Do something</string>
+    <string name="header_title">Cool header!</string>
+
+</resources>
