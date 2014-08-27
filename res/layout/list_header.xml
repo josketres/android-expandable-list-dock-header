@@ -17,12 +17,23 @@
         android:text="@string/header_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:paddingBottom="8dp"
+        android:paddingRight="30dp"
+        android:text="Some other information that is important, but will not be visible always."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/textView3"
         android:text="@string/header_text" />
 
     <TextView
@@ -39,7 +50,7 @@
         android:id="@+id/headerIcon"
         android:layout_width="wrap_content"
         android:layout_height="85dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:adjustViewBounds="true"
         android:scaleType="fitEnd"
